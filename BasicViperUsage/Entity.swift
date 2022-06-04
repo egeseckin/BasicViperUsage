@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+// Talks to -> Interactor
+
+struct Crypto: Decodable {
+    let currency: String
+    let price: String
+}
